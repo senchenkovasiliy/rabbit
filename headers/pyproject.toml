@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "direct"
+version = "0.1.0"
+description = ""
+authors = ["senchenkovasiliy <senchenko.fortech@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+propan = "^0.1.5"
+aio-pika = "^9.4.2"
+aiokafka = "^0.11.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
